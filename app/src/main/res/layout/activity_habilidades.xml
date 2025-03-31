@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroun2"
+    tools:context=".HabilidadesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"> <!-- Usa weight para ocupar espaço disponível -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginTop="50dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="🌟 Minhas Habilidades 🌟" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:text="👨‍💻 Habilidades Técnicas de Destaque 👨‍💻" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="✅ Desenvolvimento em Java / Spring: Experiência sólida em desenvolvimento backend utilizando Java e o framework Spring, construindo APIs robustas, escaláveis e seguras para diversas aplicações empresariais. Domínio do ecossistema Spring, incluindo Spring Boot e Spring Security." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="✅ Desenvolvimento em Python: Domínio avançado das melhores práticas e frameworks em Python, permitindo-me criar soluções robustas e escaláveis para atender às necessidades dos projetos." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="✅ Programação em PHP: Experiência sólida no desenvolvimento de aplicativos web e sistemas usando PHP, garantindo a entrega de soluções poderosas e de alta performance." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="✅ SQL: Conhecimento profundo da linguagem SQL e sua aplicação em bancos de dados, possibilitando a manipulação eficiente de grandes conjuntos de dados e a extração de informações relevantes." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="✅ Desenvolvedor Sênior em VBA: Especialista em VBA (Visual Basic for Applications), criando soluções personalizadas e eficientes para automação e otimização de processos no Microsoft Office." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:text="💼 Experiência no Setor Financeiro 💼" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="🏦 Trabalho atualmente no setor financeiro de um banco líder do mercado, oferecendo soluções tecnológicas inovadoras que impulsionam eficiência, segurança e crescimento." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnHome"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Home" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

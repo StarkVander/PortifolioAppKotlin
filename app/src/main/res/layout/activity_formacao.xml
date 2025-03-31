@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroun2"
+    tools:context=".FormacaoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginTop="50dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="🎓 Minha Formação 🎓" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:text="📚 Educação Acadêmica 📚" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="🎓 Bacharelado em Ciência da Computação - Universidade XYZ (2015 - 2019): Formação sólida em algoritmos, estruturas de dados, desenvolvimento de software e sistemas distribuídos, com foco em soluções tecnológicas inovadoras." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="🎓 Pós-Graduação em Engenharia de Software - Instituto ABC (2020 - 2021): Especialização em metodologias ágeis, arquitetura de software e desenvolvimento de sistemas escaláveis e de alta performance." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:text="📖 Cursos e Certificações 📖" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="✅ Certificação Java SE 11 Developer - Oracle (2022): Validação de habilidades avançadas em programação Java, com ênfase em desenvolvimento orientado a objetos e boas práticas." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="✅ Curso Avançado de Python para Data Science - Plataforma Udemy (2023): Aprofundamento em análise de dados, machine learning e automação utilizando Python." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:text="✅ Certificação Scrum Master - Scrum.org (2021): Domínio de metodologias ágeis para gestão de projetos e liderança de equipes de desenvolvimento." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnHome"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Home" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
